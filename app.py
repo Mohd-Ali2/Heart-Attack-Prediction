@@ -13,11 +13,11 @@ model = load_model()
 st.title('Heart Disease Prediction')
 st.write('Enter the following information')
 
-st.image(r"C:\Users\ali\Downloads\pngegg2.png", width=190, use_column_width=False)
+st.image("pngegg2.png", width=190, use_column_width=False)
 
 age = st.number_input('Age', 0, 120)
 
-st.sidebar.image(r"C:\Users\ali\Downloads\serious-female-doctor-with-stethoscope.png")
+st.sidebar.image("serious-female-doctor-with-stethoscope.png")
 
 anaemia = st.number_input('anaemia', 0, 1)
 
